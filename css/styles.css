@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+header{
+    background: url(/photo/Rectangle\ 5\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1310px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, .5);
+}
+
+.container{
+    margin: auto  250px;
+}
+
+.header_main{
+    display: flex;
+    align-items: center;
+}
+
+.header_main img{
+    width: 300px;
+}
+
+.header_menu ul{
+    list-style-type: none;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.header_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header_menu ul li a:hover{
+    color: green;
+}
+
+
+.baner_text{
+    display: table-cell;
+    vertical-align: middle;
+    height: 1210px;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    background: url(/photo/Ellipse\ 5.png);
+    background-position: 50% 15%;
+    color: #ffff;
+
+}
+
+.baner_text h1{
+    font-size: 60px;
+    width: 675px;}
+
+
+.baner_text p{
+    font-size: 23px;
+    width: 1085px;
+    letter-spacing: 0.12em;
+    line-height: 40px;
+}
+
+.button{
+    display: table-cell;
+    vertical-align: middle;
+    height: 200px;
+}
+
+.baner_text a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: green;
+    padding: 30px 70px;
+    font-size: 22px;
+}
+
+
+    
