@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?i7rbel');
-  src:  url('../fonts/icomoon.eot?i7rbel#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?i7rbel') format('truetype'),
-    url('../fonts/icomoon.woff?i7rbel') format('woff'),
-    url('../fonts/icomoon.svg?i7rbel#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?hv2lxj');
+  src:  url('../fonts/icomoon.eot?hv2lxj#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?hv2lxj') format('truetype'),
+    url('../fonts/icomoon.woff?hv2lxj') format('woff'),
+    url('../fonts/icomoon.svg?hv2lxj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,9 +37,21 @@
 .icon-clock-o:before {
   content: "\f017";
 }
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-facebook-f:before {
+  content: "\f09a";
+}
 .icon-spinner:before {
   content: "\f110";
 }
+.icon-vk:before {
+  content: "\f189";
+}
 .icon-history:before {
   content: "\f1da";
+}
+.icon-whatsapp:before {
+  content: "\f232";
 }
