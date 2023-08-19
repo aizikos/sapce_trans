@@ -164,7 +164,9 @@ header{
     color: #27AE60;
 }
 
-.second_main{
+.second_main,
+.third_main,
+.four_main{
     margin-top: 120px;
 }
 
@@ -212,4 +214,257 @@ header{
     margin-top: -20px;
 } 
 
-    
+.our_info{
+    display: flex;
+
+}
+
+.info_text{
+    width: 50%;
+    margin: 5% 0;
+}
+
+.info_text h1{
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info_text p{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    width: 508px;
+}
+
+.result_info{
+    background-color:#f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.technology_num{
+    position: relative;
+}
+
+.technology_num h1,
+.career_num h1{
+    font-family: Rubik;
+    font-size: 88px;
+    font-weight: 300;
+    line-height: 125px;
+    letter-spacing: 0.005em;
+    margin: 3px;
+}
+.technology_num p,
+.career_num p{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    text-align: left;       
+}
+
+.technology_num span{
+    font-size: 50px;
+    color: #27ac60;
+    position: absolute;
+    top: -25px;
+}
+
+.four_main{
+    background-color:#f8f8f8;
+    height: 670px;
+}
+
+.questions_block{
+    display: flex;
+}
+
+.left_block{
+    width: 50%;
+    padding: 10% 0;
+    padding-bottom: 0;
+}
+
+.left_block h1{
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.left_block p{
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: #27AE60;
+    width: 400px;
+}
+
+.left_block .text_page{
+    font-family: Rubik;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #393838;
+    margin-top: 30px;
+}
+
+.left_block a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: green;
+    padding: 30px 70px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.block_top{
+    width: 335px;
+    height: 70px;
+    background-color: #27ac60;
+}
+
+.application_fields{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    background-color: white;
+    display: grid;
+    width: 530px;
+    height: 430px;
+    padding: 44px 90px;
+    box-shadow: 0px 4px 40px 0px #07113312;
+}
+
+.application_fields input{
+    width: 500px;
+    height: 70px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #181A28;
+}
+
+.application_fields .comment{
+    height: 160px;
+    width: 500px;
+    border: 1px solid #DDDDDD
+}
+
+.application_fields p{
+    display: flex;
+    align-items: center;
+}
+
+.application_fields .check{
+    width: 16px;
+    margin-left: 10px;
+}
+
+.fives_main .container{
+    margin: 0;
+    margin-left: 220px;
+}
+
+.delivery_block{
+    display: flex;
+}
+
+.left_delivery{
+    width: 50%;
+}
+
+.left_delivery h1{
+    font-family: Rubik;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.left_delivery p{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 550px;
+}
+
+.left_delivery h5{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-top: 85px;
+}
+
+.one::before{
+    font-family: 'icomoon';
+    content: "\f005";
+    font-size: 30px;
+    padding-right: 20px;
+    color: #27AE60;
+}
+
+.map_block iframe{
+    width: 836px;
+    height: 925px;
+}
+
+.block-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.left_info,
+.number_info{
+    width: 240px;
+    height: 30px;
+    background-color: #F8F8F8;
+    padding: 60px 50px;
+}
+
+.left_info h4,
+.number_info h4{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;    
+}
+
+
+.left_info p,
+.number_info p{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    padding-top: 15px;
+    padding-left: 20px
+}
+
+
