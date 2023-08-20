@@ -468,3 +468,86 @@ header{
 }
 
 
+.footer_content{
+    background-color: #424141;
+    
+}
+
+.footer_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_footer img{
+    width: 300px;
+}
+
+.small_info{
+    font-family: 'Playfair Display', serif;    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.footer_menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 179px;
+}
+
+.footer_menu ul li{
+    font-family: 'Playfair Display', serif;    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer_messengers{
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+}
+
+.vk::before{
+    content: "\f189";
+     font-family: 'icomoon';
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.facebook::before{
+    content: "\f09a";
+     font-family: 'icomoon';
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.whatsapp::before{
+    content: "\f232";
+     font-family: 'icomoon';
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.footer_button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;   
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: 1px solid #FFFFFF;
+    padding: 16px 35px;
+}
+
